@@ -1,0 +1,75 @@
+.headerWrapper {
+    border-bottom: 1px solid #e9ecef;
+    background-image: url("src/assets/images/background/back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-color: #75A40B;
+    padding: 30px 30px 300px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.iconsWrapper {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.pageLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 54px;
+    gap: 16px;
+    width: 100%;
+}
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    font-size: 24px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 900;
+    max-width: 800px;
+}
+
+.imageWrapper {
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.kong {
+    width: 100%;
+    max-width: 462px;
+}
+
+.tree {
+    position: absolute;
+    top: 58%;
+    z-index: 1;
+}
+
+.hands {
+    z-index: 2;
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
